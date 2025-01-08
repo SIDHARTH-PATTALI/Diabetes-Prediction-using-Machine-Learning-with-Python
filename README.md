@@ -29,4 +29,11 @@ The project uses the Pima Indians Diabetes dataset to train and evaluate a Suppo
   - Age
   - Outcome (Target variable)
 
-
+## 🛡️ Features
+-**Data Preprocessing**:
+- Handled missing values in key features like Glucose and BMI.
+- Standardized features using StandardScaler.
+- Model: Trained an SVM classifier with a linear kernel.
+- Evaluation:
+- Training accuracy: 78.7%.
+- Testing accuracy: 77.3%.
